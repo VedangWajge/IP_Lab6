@@ -1,38 +1,70 @@
-.App {
-  text-align: center;
+/* Global Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* App Container Styling */
+.app-container {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
+}
+
+/* Main content styling */
+main {
+  flex: 1;
+  padding: 20px;
+  background-color: #f0f4f8;
+}
+
+/* Heading Styles */
+h1, h2 {
+  color: #007bff; /* Change to a uniform blue color */
+  margin-bottom: 10px;
+}
+
+h3 {
+  color: #333333; /* Subtle dark color for smaller headings */
+  margin-bottom: 10px;
+}
+
+/* Button Styles */
+button {
+  padding: 10px 15px;
+  background-color: #007bff; /* Blue button */
   color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
 }
 
-.App-link {
-  color: #61dafb;
+button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* List Styling */
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  margin: 5px 0;
+  padding: 10px;
+  /* background-color: #007bff; */
+  color: rgb(0, 0, 0);
+  border-radius: 5px;
+}
+
+/* Optional footer or section */
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 20px;
 }
