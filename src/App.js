@@ -11,7 +11,7 @@ import Footer from './components/Footer';
 import './App.css';
 
 function App() {
-  const skills = ["Team Management", "Public Relations", "Web Development", "Python", "React", "Critical Thinking"];
+  const skills = ["Team Management", "Public Relation", "Web Development", "Python", "React", "Critical Thinking"];
 
   return (
     <Router>
